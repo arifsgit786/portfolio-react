@@ -1,76 +1,100 @@
-import project1 from "../assets/assets/projects/project-1.jpg";
-import project2 from "../assets/assets/projects/project-2.jpg";
-import project3 from "../assets/assets/projects/project-3.jpg";
-import project4 from "../assets/assets/projects/project-4.jpg";
+import project1 from "../assets/assets/projects/ally_logo.jpg";
+import project2 from "../assets/assets/projects/amway-1.jpeg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I’m a passionate Front-End Full Stack Developer with 7+ years of experience crafting high-performance web and mobile applications across banking, healthcare, and enterprise domains. I specialize in building scalable, secure, and accessible UIs using ReactJS, React Native, and Angular, with a strong backend foundation in Node.js and cloud solutions using AWS. I thrive on clean architecture, reusable components, and seamless API integration  whether it’s REST, GraphQL, or legacy SOAP.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I’ve worked across domains like banking, healthcare, and enterprise platforms, delivering applications that not only meet business goals but also offer a smooth and accessible user experience. My primary focus is on ReactJS, React Native, and Node.js, and I’m passionate about clean architecture, reusable components, and writing testable, maintainable code. I have hands-on experience working with TypeScript, Redux, REST/GraphQL/SOAP APIs, and implementing real-time functionality using Socket.io.
+		Beyond the code, I’ve taken on leadership roles — mentoring junior developers, reviewing code, and setting standards for performance, testing, and accessibility. I believe in building inclusive digital experiences and always follow best practices like ADA compliance, unit testing with Jest, and CI/CD deployment pipelines using Docker, Bitrise, and GitLab. I enjoy collaborating with cross-functional teams, translating designs from Figma or Adobe XD into fully functional applications, and ensuring they run smoothly across devices using tools like BrowserStack.`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    company: "Ally Financial.",
+    description: `Led a team in developing and maintaining Mobile/Web applications using ReactNative, Typescript, React.js, and Node.js. Implemented RESTful APIs and integrated with Postgresql databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: [
+      "ReactNative",
+      "React.JS",
+      "Typescript",
+      "Node.JS",
+      "Postgresql",
+      "Firebase",
+      "AWS",
+      "Browserstack",
+      "Postman",
+    ],
   },
   {
-    year: "2022 - 2023",
+    year: "2018 - 2022",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    company: "TCS",
+    description: `Designed and developed user interfaces for Mobile/Web applications using RN, React, Javascript and modern methodologies. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    technologies: [
+      "React.JS",
+      "Express.JS",
+      "HTML5",
+      "AWS",
+      "MongoDB",
+      "tailwindCSS",
+      "ReactNative",
+    ],
   },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  // {
+  //   year: "2021 - 2022",
+  //   role: "Full Stack Developer",
+  //   company: "Facebook",
+  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+  // },
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Ally Financial",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "The Ally Financial app & Website is designed to help you manage your financial life on the go, encompassing your bank, credit card, invest, and auto accounts in a single app. ",
+    technologies: ["ReactNative", "ReactJS", "Postgresql", "NodeJS", "GraphQL"],
   },
   {
-    title: "Task Management App",
+    title: "AMWAY",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "The Amway+ app is a business and productivity tool designed for Amway Independent Business Owners (IBOs). It provides features to help IBOs manage their business, track performance, engage with customers, and access resources. The app complements the Amway Wellbeing+ app, which focuses on health and wellness for both IBOs and their customers",
+    technologies: [
+      "HTML5",
+      "CSS",
+      "ReactJS",
+      "Firebase",
+      "MongoDB",
+      "Javascript",
+    ],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   image: project3,
+  //   description:
+  //     "Led the frontend modernization of Ally’s credit card application platform, using React.js, React Native, and Node.js. Built dynamic orchestration flows driven by real-time backend responses (pageToLoad) to streamline card eligibility, application, and rewards flows. Modernized legacy components, integrated Adobe Analytics, and optimized Apollo queries—improving performance by 40%. Spearheaded frontend best practices, guided interns/junior devs, and ensured seamless deployment via Bitrise and BrowserStack.",
+  //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  // },
+  // {
+  //   title: "Blogging Platform",
+  //   image: project4,
+  //   description:
+  //     "Contributed to the development of AMWAY’s web and mobile applications using React.js, React Native, and GraphQL. Designed ADA-compliant, responsive interfaces and integrated biometric authentication features. Built reusable component libraries, implemented real-time data sync via WebSockets, and deployed production-ready builds using Docker and GitLab CI.",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {
   address: "HNo.2517 AuroraLane, Denton, TX, 76207",
-  phoneNo: "+12 4555 666 00 ",
+  phoneNo: "+1 518 (606)-6902 ",
   email: "smohammadarif941@gmail.com",
 };
