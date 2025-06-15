@@ -20,7 +20,7 @@ const NavBar = () => {
             delay: 0.5,
             ease: "easeInOut",
           }}
-          href="https://www.linkedin.com/in/mohammad-arif-shaik-932214285/"
+          href="https://www.linkedin.com/in/mohammad-arif-shaik-232289190/"
           target="_blank"
         >
           <FaLinkedin />
@@ -34,7 +34,7 @@ const NavBar = () => {
             delay: 0.5,
             ease: "easeInOut",
           }}
-          href="https://gitlab.com/yuhoporg"
+          href="https://github.com/dashboard"
           target="_blank"
         >
           <FaGithub />
